@@ -7,3 +7,5 @@
 
 modules.order
 Module.symvers
+
+.vscode/settings.json
