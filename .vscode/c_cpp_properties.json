@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",
+                "/usr/include",
+                "/usr/local/include",
+                "/lib/modules/5.4.0-80-generic/build/include",
+                "/lib/modules/5.4.0-80-generic/build/arch/x86/include",
+                "/usr/src/linux-headers-5.4.0-80/include",
+                "/usr/src/linux-headers-5.4.0-80-generic/arch/x86/include/generated",
+                "/usr/include/x86_64-linux-gnu/",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include/"
+            ],
+            "defines": [
+                "KBUILD_MODNAME=\"hello\"",
+                "__GNUC__",
+                "__KERNEL__"
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
